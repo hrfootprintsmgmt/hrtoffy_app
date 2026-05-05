@@ -1,0 +1,95 @@
+name: hrms_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+6
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core dependencies
+  supabase_flutter: ^2.10.3
+  image_picker: ^1.0.7
+  permission_handler: ^11.0.0
+  pdf: ^3.10.7
+  printing: ^5.13.2
+  path_provider: ^2.1.4
+  open_filex: ^4.5.0
+  share_plus: ^10.0.2
+  table_calendar: ^3.0.9
+  file_picker: ^10.3.1
+  cached_network_image: ^3.3.1
+  geolocator: ^10.1.0
+  geocoding: ^2.1.0
+  http: ^1.2.2
+  gpt_markdown: ^1.1.4
+  provider: ^6.1.2
+  flutter_dotenv: ^5.1.0
+  intl: ^0.19.0
+  universal_html: ^2.2.4
+  fluttertoast: ^8.2.4
+  sign_in_with_apple: ^7.0.1
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  app_badge_plus: ^1.2.3
+  shimmer: ^2.0.0
+  webview_flutter: ^4.7.0
+  uicons: ^1.0.1
+  iconify_flutter: ^0.0.5
+  flutter_svg: ^2.0.9
+  dropdown_button2: ^2.3.9
+  uuid: ^4.3.3
+  google_mlkit_text_recognition: ^0.13.0
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_messaging: ^15.1.2
+
+  # Local notifications
+  flutter_local_notifications: ^17.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+# Launcher icons configuration
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/toffy_1024_5.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/toffy_1024_5.png"
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/
+    - assets/HR TOFFY.png
+    - assets/toffy_1024_1.png
+    - assets/Toffy_Character.png
+    - assets/grok-video-5ee1fb5d-6d43-46a9-a750-f8faff7b1a87.gif
+    - assets/hi toffy.gif
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Bold.ttf
+        - asset: fonts/Montserrat-SemiBold.ttf
+        - asset: fonts/Montserrat-Medium.ttf
+        - asset: fonts/Montserrat-Regular.ttf
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+
+
+    - family: PlayfairDisplay
+      fonts:
+        - asset: fonts/PlayfairDisplay-Regular.ttf
+        - asset: fonts/PlayfairDisplay-Bold.ttf

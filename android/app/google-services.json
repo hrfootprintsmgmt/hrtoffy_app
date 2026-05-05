@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "773811045811",
+    "project_id": "fiery-script-474504-d3",
+    "storage_bucket": "fiery-script-474504-d3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773811045811:android:9217a040c25813327637c6",
+        "android_client_info": {
+          "package_name": "com.example.hrms_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrKBLmzb61ShmHxm9i1aYm5Vj2R2jDuMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773811045811:android:ac9cfb9a4bd941c77637c6",
+        "android_client_info": {
+          "package_name": "com.hrtoffy.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrKBLmzb61ShmHxm9i1aYm5Vj2R2jDuMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
